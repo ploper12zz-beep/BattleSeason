@@ -11,6 +11,10 @@ Console.WriteLine("\n-----------------------------");
 for (int i = 1; i <= battlenumber; i++)
 {
     Console.WriteLine($"Battle {i} | Exp gained: {expPerBattle} | Total Exp: {totalexp += expPerBattle}");
+    if (totalexp % 100 == 0)
+    {
+        Console.WriteLine($"++{name} has reached 100 EXP!++");
+    }
 }
 
 Console.WriteLine("\n== BATTLE SEASON COMPLETE ==");
