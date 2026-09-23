@@ -12,3 +12,8 @@ for (int i = 1; i <= battlenumber; i++)
 {
     Console.WriteLine($"Battle {i} | Exp gained: {expPerBattle} | Total Exp: {totalexp += expPerBattle}");
 }
+
+Console.WriteLine("\n== BATTLE SEASON COMPLETE ==");
+Console.WriteLine($"Player: {name}");
+Console.WriteLine($"Total Battles: {battlenumber}");
+Console.WriteLine($"Total EXP earned: {totalexp}");
